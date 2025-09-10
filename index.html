@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentasi Gotong Royong</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    /* Efek mengetik */
+    .typing {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 3px solid #4b5563;
+      animation: typing 3s steps(40, end), blink .75s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      from, to { border-color: transparent }
+      50% { border-color: #4b5563; }
+    }
+
+    /* Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow z-50 flex justify-center space-x-6 py-3">
+    <a href="#slide1" class="hover:text-red-600 font-medium">Home</a>
+    <a href="#slide2" class="hover:text-red-600 font-medium">Definisi</a>
+    <a href="#slide3" class="hover:text-red-600 font-medium">Manfaat</a>
+    <a href="#slide4" class="hover:text-red-600 font-medium">Contoh</a>
+    <a href="#slide8" class="hover:text-red-600 font-medium">Kesimpulan</a>
+  </nav>
+
+  <!-- Slide 1 -->
+  <section id="slide1" class="h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-red-500 to-white">
+    <h1 class="text-5xl font-bold mb-6 typing text-white">Proyek Gotong Royong</h1>
+    <h3 class="text-2xl font-bold text-gray-100 mb-2 sr-fade">Kelompok 3</h3>
+    <p class="text-lg font-semibold text-white mb-6 sr-fade">Anggota: AZZIS, HAIKAL, HABIB</p>
+    <p class="text-lg max-w-3xl sr-fade leading-relaxed text-white">
+      Proyek gotong royong merupakan bentuk nyata kerja sama masyarakat untuk membangun, menjaga, dan mengembangkan lingkungan sosial secara bersama-sama. 
+      Melalui kegiatan ini, setiap individu belajar arti penting persatuan dan kebersamaan. 
+      Gotong royong adalah identitas bangsa Indonesia yang harus terus dijaga sebagai warisan luhur dari nenek moyang kita.
+    </p>
+    <div class="mt-8 animate-pulse">
+      <a href="#slide2" class="px-6 py-3 bg-white text-red-600 font-semibold rounded-full shadow-lg transition">Scroll ke bawah ↓</a>
+    </div>
+  </section>
+
+  <!-- Slide 2 -->
+  <section id="slide2" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-white to-red-100 px-6">
+    <h2 class="text-4xl font-semibold mb-6 sr-top text-red-600">Apa Itu Gotong Royong?</h2>
+    <p class="text-lg max-w-3xl mb-6 sr-fade leading-relaxed">
+      Gotong royong adalah salah satu ciri khas budaya Indonesia yang menggambarkan kerja sama dan rasa solidaritas antarwarga. 
+      Biasanya dilakukan secara sukarela tanpa pamrih, demi kepentingan bersama. 
+      Baik kerja bakti, pembangunan fasilitas umum, maupun kegiatan sosial lainnya, gotong royong selalu menanamkan nilai persatuan dan persaudaraan.
+    </p>
+    <img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" class="w-40 sr-zoom hover:scale-110 transition">
+  </section>
+
+  <!-- Slide 3 -->
+  <section id="slide3" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-red-100 to-white px-6">
+    <h2 class="text-4xl font-semibold mb-6 sr-left text-red-600">Manfaat Gotong Royong</h2>
+    <p class="text-lg max-w-3xl mb-6 sr-fade leading-relaxed">
+      Gotong royong memberikan banyak manfaat, baik bagi individu maupun masyarakat secara keseluruhan. 
+      Selain mempererat hubungan sosial antarwarga, kegiatan ini juga mengajarkan pentingnya kepedulian terhadap lingkungan. 
+      Dengan gotong royong, pekerjaan berat jadi ringan, suasana lebih harmonis, serta tercipta rasa memiliki dan tanggung jawab bersama.
+    </p>
+    <ul class="text-lg text-left space-y-4">
+      <li class="sr-right">🤝 Mempererat persaudaraan dan kebersamaan</li>
+      <li class="sr-right">🏠 Membangun serta menjaga lingkungan bersama</li>
+      <li class="sr-right">🌱 Menumbuhkan rasa peduli sosial dan lingkungan</li>
+      <li class="sr-right">🇮🇩 Mengamalkan nilai-nilai Pancasila</li>
+    </ul>
+  </section>
+
+  <!-- Slide 4 -->
+  <section id="slide4" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-red-200 to-white px-6">
+    <h2 class="text-4xl font-semibold mb-6 sr-top text-red-600">Contoh Proyek</h2>
+    <p class="text-lg max-w-3xl mb-6 sr-fade leading-relaxed">
+      Proyek gotong royong hadir dalam banyak bentuk, misalnya kerja bakti membersihkan lingkungan, pembangunan jalan atau pos ronda, serta kegiatan bakti sosial. 
+      Semua bertujuan menciptakan lingkungan yang bersih, aman, nyaman, dan penuh rasa kebersamaan.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white shadow rounded-xl hover:scale-110 transition duration-500 sr-fade">
+        <h3 class="text-xl font-bold text-red-600">Kerja Bakti</h3>
+        <p class="text-sm mt-2">Membersihkan lingkungan bersama warga.</p>
+      </div>
+      <div class="p-6 bg-white shadow rounded-xl hover:scale-110 transition duration-500 sr-fade">
+        <h3 class="text-xl font-bold text-red-600">Pembangunan</h3>
+        <p class="text-sm mt-2">Membangun fasilitas umum secara kolektif.</p>
+      </div>
+      <div class="p-6 bg-white shadow rounded-xl hover:scale-110 transition duration-500 sr-fade">
+        <h3 class="text-xl font-bold text-red-600">Bakti Sosial</h3>
+        <p class="text-sm mt-2">Membantu masyarakat yang membutuhkan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 8 (Kesimpulan) -->
+  <section id="slide8" class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-red-500 to-white px-6">
+    <h2 class="text-5xl font-bold mb-6 sr-top text-white">Kesimpulan</h2>
+    <p class="text-xl max-w-3xl sr-fade leading-relaxed text-white">
+      Gotong royong adalah cermin kepribadian bangsa Indonesia yang menjunjung tinggi persatuan dan kebersamaan. 
+      Dengan gotong royong, kita membangun lingkungan yang lebih baik, memperkuat ikatan sosial, serta menanamkan nilai Pancasila. 
+      Mari jaga dan lestarikan budaya ini demi terciptanya masyarakat yang harmonis, rukun, dan sejahtera.
+    </p>
+    <div class="mt-8 sr-zoom">
+      <span class="px-6 py-3 bg-white text-red-600 font-bold rounded-full shadow-lg animate-bounce">Terima Kasih 🙏</span>
+    </div>
+  </section>
+
+  <!-- ScrollReveal Setup -->
+  <script>
+    ScrollReveal().reveal('.sr-top', {
+      delay: 200, distance: '50px', origin: 'top', duration: 1000, reset: true
+    });
+    ScrollReveal().reveal('.sr-left', {
+      delay: 200, distance: '60px', origin: 'left', duration: 1000, reset: true
+    });
+    ScrollReveal().reveal('.sr-right', {
+      delay: 200, distance: '60px', origin: 'right', duration: 1000, reset: true
+    });
+    ScrollReveal().reveal('.sr-fade', {
+      delay: 300, opacity: 0, duration: 1200, reset: true
+    });
+    ScrollReveal().reveal('.sr-zoom', {
+      delay: 400, scale: 0.8, duration: 1000, reset: true
+    });
+  </script>
+</body>
+</html> 
